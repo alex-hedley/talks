@@ -1,0 +1,22 @@
+{
+    "talks": [
+        {
+            "id": 1,
+            "name": "Markdown",
+            "date": "2023-04-04",
+            "description": "Introduction to Markdown.",
+            "image": "images/Markdown-mark.svg",
+            "presentationUrl": "https://alex-hedley.github.io/talk-markdown/",
+            "repo": "https://github.com/alex-hedley/talk-markdown"
+        },
+        {
+            "id": 2,
+            "name": "Static Site Generators",
+            "date": "2023-04-18",
+            "description": "Introduction to Static Site Generators, GitHub Pages, docFX, mkDocs etc.",
+            "image": "images/static-site-generators.png",
+            "presentationUrl": "https://alex-hedley.github.io/talk-static-site-generators/",
+            "repo": "https://github.com/alex-hedley/talk-static-site-generators"
+        }
+    ]
+}
