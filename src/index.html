@@ -13,8 +13,6 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <!-- <link rel="stylesheet" href="css/jquery-ui.min.css"> -->
     <link rel="stylesheet" href="css/vendor/jquery-ui.1.12.1.min.css">
-    <link rel="stylesheet" href="css/vendor/pivot.min.css">
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pivottable/2.13.0/pivot.min.css"> -->
     <link rel="stylesheet" href="css/styles.css">
 
     <link rel="shortcut icon" href="favicon.ico">
@@ -119,6 +117,11 @@
                                 <!-- <h6 class="card-subtitle mb-2 text-muted">{{talk.description}}</h6> -->
                                 <p class="card-text">{{talk.description}}</p>
                                 <!-- <p class="card-text">{{talk.date | date:'d MMM yyyy'}}</p> -->
+                                <div class="card-topics-container">
+                                    <div ng-repeat="topic in talk.topics">
+                                        <span class="badge badge-pill card-pill-primary" style="margin-left:5px;">{{topic}}</span>
+                                    </div>
+                                </div>
                                 <div class="btn-group">
                                     <button ng-click="openRepository(talk)" type="button" class="btn btn-sm btn-outline-secondary card-button">
                                         <i class="fab fa-github"></i> View Code
@@ -160,8 +163,6 @@
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.5/angular.min.js"></script> -->
     <script src="js/vendor/angular.min.js"></script>
     <!-- <script src="js/vendor/angular-filter.js"></script> -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/pivottable/2.13.0/pivot.min.js"></script> -->
-    <script src="js/vendor/pivot.min.js"></script>
     <script src="js/vendor/sorttable.js"></script>
     <script src="js/app.js"></script>
     </body>

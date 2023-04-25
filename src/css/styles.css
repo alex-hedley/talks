@@ -5,3 +5,8 @@ body {
 h1 {
     color: white;
 }
+
+.card-pill-primary {
+    color: #fff;
+    background-color: #000;
+}

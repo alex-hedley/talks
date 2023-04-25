@@ -7,7 +7,8 @@
             "description": "Introduction to Markdown.",
             "image": "images/Markdown-mark.svg",
             "presentationUrl": "https://alex-hedley.github.io/talk-markdown/",
-            "repo": "https://github.com/alex-hedley/talk-markdown"
+            "repo": "https://github.com/alex-hedley/talk-markdown",
+            "topics": []
         },
         {
             "id": 2,
@@ -16,7 +17,18 @@
             "description": "Introduction to Static Site Generators, GitHub Pages, docFX, mkDocs etc.",
             "image": "images/static-site-generators.png",
             "presentationUrl": "https://alex-hedley.github.io/talk-static-site-generators/",
-            "repo": "https://github.com/alex-hedley/talk-static-site-generators"
+            "repo": "https://github.com/alex-hedley/talk-static-site-generators",
+            "topics": []
+        },
+        {
+            "id": 3,
+            "name": "git",
+            "date": "2023-12-31",
+            "description": "git for the non developer",
+            "image": "images/git.png",
+            "presentationUrl": "https://alex-hedley.github.io/talk-git/",
+            "repo": "https://github.com/alex-hedley/talk-git",
+            "topics": ["WIP"]
         }
     ]
 }
