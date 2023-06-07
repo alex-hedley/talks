@@ -29,6 +29,16 @@
             "presentationUrl": "https://alex-hedley.github.io/talk-git/",
             "repo": "https://github.com/alex-hedley/talk-git",
             "topics": ["WIP"]
+        },
+        {
+            "id": 4,
+            "name": "Beginners Guide to API Specs",
+            "date": "2023-12-31",
+            "description": "How to read and use an API spec",
+            "image": "images/api.png",
+            "presentationUrl": "https://alex-hedley.github.io/talk-beginners-guide-to-api-specs/",
+            "repo": "https://github.com/alex-hedley/talk-beginners-guide-to-api-specs",
+            "topics": ["WIP"]
         }
     ]
 }
