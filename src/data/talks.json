@@ -32,13 +32,23 @@
         },
         {
             "id": 4,
-            "name": "Beginners Guide to API Specs",
-            "date": "2023-12-31",
+            "name": "Beginners Guide to API Specs - Part 1",
+            "date": "2023-06-15",
             "description": "How to read and use an API spec",
             "image": "images/api.png",
             "presentationUrl": "https://alex-hedley.github.io/talk-beginners-guide-to-api-specs/",
             "repo": "https://github.com/alex-hedley/talk-beginners-guide-to-api-specs",
-            "topics": ["WIP"]
+            "topics": []
+        },
+        {
+            "id": 5,
+            "name": "Beginners Guide to API Specs - Part 2",
+            "date": "2023-07-06",
+            "description": "Testing the spec",
+            "image": "images/api.png",
+            "presentationUrl": "https://alex-hedley.github.io/talk-beginners-guide-to-api-specs/",
+            "repo": "https://github.com/alex-hedley/talk-beginners-guide-to-api-specs",
+            "topics": []
         }
     ]
 }
