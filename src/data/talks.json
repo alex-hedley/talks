@@ -8,7 +8,7 @@
             "image": "images/Markdown-mark.svg",
             "presentationUrl": "https://alex-hedley.github.io/talk-markdown/",
             "repo": "https://github.com/alex-hedley/talk-markdown",
-            "topics": []
+            "topics": ["interal"]
         },
         {
             "id": 2,
@@ -18,10 +18,43 @@
             "image": "images/static-site-generators.png",
             "presentationUrl": "https://alex-hedley.github.io/talk-static-site-generators/",
             "repo": "https://github.com/alex-hedley/talk-static-site-generators",
-            "topics": []
+            "topics": ["interal"]
         },
         {
             "id": 3,
+            "name": "Beginners Guide to API Specs - Part 1",
+            "date": "2023-06-15",
+            "description": "How to read and use an API spec",
+            "image": "images/api.png",
+            "presentationUrl": "https://alex-hedley.github.io/talk-beginners-guide-to-api-specs/",
+            "repo": "https://github.com/alex-hedley/talk-beginners-guide-to-api-specs",
+            "topics": ["interal"]
+        },
+        {
+            "id": 4,
+            "name": "Beginners Guide to API Specs - Part 2",
+            "date": "2023-07-06",
+            "description": "Testing the spec",
+            "image": "images/api.png",
+            "presentationUrl": "https://alex-hedley.github.io/talk-beginners-guide-to-api-specs/",
+            "repo": "https://github.com/alex-hedley/talk-beginners-guide-to-api-specs",
+            "topics": ["interal"]
+        },
+        {
+            "id": 5,
+            "name": "Blazor Interaction",
+            "date": "2023-09-06",
+            "location": "TUSPark, Newcastle",
+            "description": "Building a clone of Try.NET (.NET Interactive) in Blazor WASM",
+            "image": "images/blazorinteractive.png",
+            "presentationUrl": "https://alex-hedley.github.io/talk-blazorinteractive/",
+            "repo": "https://github.com/alex-hedley/talk-blazorinteractive",
+            "topics": ["external"],
+            "eventUrl": "https://www.meetup.com/haintonsdotnetmeetup/events/295218917/",
+            "videoUrl": ""
+        },
+        {
+            "id": 0,
             "name": "git",
             "date": "2023-12-31",
             "description": "git for the non developer",
@@ -29,26 +62,6 @@
             "presentationUrl": "https://alex-hedley.github.io/talk-git/",
             "repo": "https://github.com/alex-hedley/talk-git",
             "topics": ["WIP"]
-        },
-        {
-            "id": 4,
-            "name": "Beginners Guide to API Specs - Part 1",
-            "date": "2023-06-15",
-            "description": "How to read and use an API spec",
-            "image": "images/api.png",
-            "presentationUrl": "https://alex-hedley.github.io/talk-beginners-guide-to-api-specs/",
-            "repo": "https://github.com/alex-hedley/talk-beginners-guide-to-api-specs",
-            "topics": []
-        },
-        {
-            "id": 5,
-            "name": "Beginners Guide to API Specs - Part 2",
-            "date": "2023-07-06",
-            "description": "Testing the spec",
-            "image": "images/api.png",
-            "presentationUrl": "https://alex-hedley.github.io/talk-beginners-guide-to-api-specs/",
-            "repo": "https://github.com/alex-hedley/talk-beginners-guide-to-api-specs",
-            "topics": []
         }
     ]
 }

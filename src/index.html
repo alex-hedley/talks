@@ -110,29 +110,35 @@
                         <div class="card" style="width: 18rem;">
                             <img ng-if="talk.image.length > 0" ng-src="/talks/{{talk.image}}" class="card-img-top" alt="{{talk.name}}">
                             <div class="card-header">
-                                {{talk.name}}
+                                <h3>{{talk.name}}</h3>
                             </div>
                             <div class="card-body">
-                                <!-- <h5 class="card-title">{{talk.name}}</h5> -->
-                                <!-- <h6 class="card-subtitle mb-2 text-muted">{{talk.description}}</h6> -->
                                 <p class="card-text">{{talk.description}}</p>
-                                <!-- <p class="card-text">{{talk.date | date:'d MMM yyyy'}}</p> -->
+                                <p class="card-text" ng-if="talk.location.length > 0">📍 {{talk.location}}</p>
                                 <div class="card-topics-container">
                                     <div ng-repeat="topic in talk.topics">
                                         <span class="badge badge-pill card-pill-primary" style="margin-left:5px;">{{topic}}</span>
                                     </div>
                                 </div>
+                                <br />
                                 <div class="btn-group">
                                     <button ng-click="openRepository(talk)" type="button" class="btn btn-sm btn-outline-secondary card-button">
-                                        <i class="fab fa-github"></i> View Code
+                                        <i class="fab fa-github"></i> Code
                                     </button>
                                     <button ng-click="openRepositoryHomepage(talk)" type="button" class="btn btn-sm btn-outline-secondary card-button">
-                                        <i class="fas fa-globe-europe"></i>View Site
+                                        <i class="fas fa-globe-europe"></i> Site
                                     </button>
+                                    <button ng-if="talk.videoUrl.length > 0" ng-click="openVideo(talk)" type="button" class="btn btn-sm btn-outline-secondary card-button">
+                                        <i class="fa-solid fa-video"></i> Video
+                                    </button>
+                                    <button ng-if="talk.eventUrl.length > 0" ng-click="openEvent(talk)" type="button" class="btn btn-sm btn-outline-secondary card-button">
+                                        <i class="fa-solid fa-calendar-days"></i> Event
+                                    </button>
+                                    
                                 </div>
                             </div>
                             <div class="card-footer text-muted">
-                                {{talk.date | toDate | date:'mediumDate'}}
+                                🗓️ {{talk.date | toDate | date:'mediumDate'}}
                             </div>
                         </div>
                     </div>

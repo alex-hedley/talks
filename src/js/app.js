@@ -11,9 +11,9 @@ myApp.controller('myController', function ($scope, $http, $q, $filter) {
         var file = 'data/talks.json';
 
         $http.get(file)
-        .then(function(response) {
-            $scope.talks = response.data.talks;
-        });
+            .then(function(response) {
+                $scope.talks = response.data.talks;
+            });
     };
 
     $scope.openRepository = (talk) => {
@@ -22,6 +22,14 @@ myApp.controller('myController', function ($scope, $http, $q, $filter) {
 
     $scope.openRepositoryHomepage = (talk) => {
         window.open(talk.presentationUrl);
+    }
+
+    $scope.openVideo = (talk) => {
+        window.open(talk.videoUrl);
+    }
+
+    $scope.openEvent = (talk) => {
+        window.open(talk.eventUrl);
     }
 
     $scope.init();

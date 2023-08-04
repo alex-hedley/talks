@@ -14,6 +14,7 @@
 `cd src`
 
 `py -m http.server`
+`python3 -m http.server`
 
 - [local](http://localhost:8000/)
 
