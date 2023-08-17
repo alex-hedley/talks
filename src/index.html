@@ -54,12 +54,14 @@
                             <thead>
                                 <tr>
                                     <th>Date</th>
+                                    <th>Time</th>
                                     <th>Name</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr ng-repeat="talk in talks">
                                     <td>{{talk.date | toDate | date:'mediumDate'}}</td>
+                                    <td>{{talk.time}}</td>
                                     <td>{{talk.name}}</td>
                                 </tr>
                             </tbody>
@@ -139,6 +141,7 @@
                             </div>
                             <div class="card-footer text-muted">
                                 🗓️ {{talk.date | toDate | date:'mediumDate'}}
+                                <span ng-if="talk.time.length > 0">🕰️ {{talk.time}}</span>
                             </div>
                         </div>
                     </div>

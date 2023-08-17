@@ -44,6 +44,7 @@
             "id": 5,
             "name": "Blazor Interaction",
             "date": "2023-09-06",
+            "time": "6pm - 8pm",
             "location": "TUSPark, Newcastle",
             "description": "Building a clone of Try.NET (.NET Interactive) in Blazor WASM",
             "image": "images/blazorinteractive.png",
