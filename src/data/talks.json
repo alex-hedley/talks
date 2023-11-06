@@ -57,12 +57,12 @@
         {
             "id": 6,
             "name": "GitHub Actions",
-            "date": "1970-01-01",
+            "date": "2023-11-06",
             "description": "",
-            "image": "images/githubactions.png",
+            "image": "images/github-actions.png",
             "presentationUrl": "https://alex-hedley.github.io/talk-githubactions/",
             "repo": "https://github.com/alex-hedley/talk-githubactions",
-            "topics": ["internal", "wip"]
+            "topics": ["internal"]
         },
         {
             "id": 0,
