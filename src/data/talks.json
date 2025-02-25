@@ -42,7 +42,7 @@
         },
         {
             "id": 5,
-            "name": "Blazor Interaction",
+            "name": "Blazor Interactive",
             "date": "2023-09-06",
             "time": "6pm - 8pm",
             "location": "TUSPark, Newcastle",
@@ -52,7 +52,7 @@
             "repo": "https://github.com/alex-hedley/talk-blazorinteractive",
             "topics": ["external"],
             "eventUrl": "https://www.meetup.com/haintonsdotnetmeetup/events/295218917/",
-            "videoUrl": ""
+            "videoUrl": "https://www.youtube.com/watch?v=hfMHdYciadM"
         },
         {
             "id": 6,
@@ -63,6 +63,20 @@
             "presentationUrl": "https://alex-hedley.github.io/talk-githubactions/",
             "repo": "https://github.com/alex-hedley/talk-githubactions",
             "topics": ["internal"]
+        },
+        {
+            "id": 7,
+            "name": "Blazor",
+            "date": "",
+            "time": "",
+            "location": "",
+            "description": "",
+            "image": "",
+            "presentationUrl": "https://alex-hedley.github.io/talk-blazor/",
+            "repo": "https://github.com/alex-hedley/talk-blazor",
+            "topics": ["external", "wip"],
+            "eventUrl": "",
+            "videoUrl": ""
         },
         {
             "id": 0,
